@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+    <category>
+        <pattern>HALLO *</pattern>
+        <template>
+            <random>
+                <li>Hallo! Wie kann ich Ihnen helfen?</li>
+                <li>Hallo! Brauchen Sie Unterstützung bei etwas?</li>
+                <li>Guten Tag! Kann ich Ihnen behilflich sein?</li>
+            </random>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>Hi</pattern>
+        <template>
+            <random>
+                <li>Hallo! Wie kann ich Ihnen helfen?</li>
+                <li>Hallo! Brauchen Sie Unterstützung bei etwas?</li>
+                <li>Guten Tag! Kann ich Ihnen behilflich sein?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WILLKOMMEN *</pattern>
+        <template>
+            <random>
+                <li>Willkommen! Wie kann ich Ihnen heute helfen?</li>
+                <li>Schön, Sie zu sehen! Wie kann ich Ihnen behilflich sein?</li>
+                <li>Guten Tag! Benötigen Sie Unterstützung?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ICH BRAUCHE HILFE BEIM AUSFÜLLEN VON ANTRÄGEN</pattern>
+        <template>
+            Kein Problem! Ich helfe Ihnen gerne beim Ausfüllen von Anträgen. Bitte geben Sie mir mehr Details dazu.
+        </template>
+    </category>
+
+    <category>
+    <pattern>GUTEN MORGEN *</pattern>
+    <template>
+        <random>
+            <li>Guten Morgen! Wie kann ich Ihnen helfen?</li>
+            <li>Guten Morgen! Benötigen Sie Unterstützung bei etwas?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>GUTEN TAG *</pattern>
+    <template>
+        <random>
+            <li>Guten Tag! Wie kann ich Ihnen behilflich sein?</li>
+            <li>Guten Tag! Brauchen Sie Unterstützung bei etwas?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>GUTEN ABEND *</pattern>
+    <template>
+        <random>
+            <li>Guten Abend! Wie kann ich Ihnen helfen?</li>
+            <li>Guten Abend! Brauchen Sie Unterstützung bei etwas?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>HALLO</pattern>
+    <template>
+        <random>
+            <li>Hallo! Wie kann ich Ihnen behilflich sein?</li>
+            <li>Hallo! Brauchen Sie Unterstützung bei etwas?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>WILLKOMMEN</pattern>
+    <template>
+        <random>
+            <li>Willkommen! Wie kann ich Ihnen heute helfen?</li>
+            <li>Schön, Sie zu sehen! Wie kann ich Ihnen behilflich sein?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>ICH BRAUCHE HILFE BEIM AUSFÜLLEN VON FORMULAREN</pattern>
+    <template>
+        Kein Problem! Ich helfe Ihnen gerne beim Ausfüllen von Formularen. Bitte geben Sie mir mehr Details dazu.
+    </template>
+</category>
+
+<category>
+    <pattern>ICH BRAUCHE HILFE BEIM AUSFÜLLEN VON DOKUMENTEN</pattern>
+    <template>
+        Selbstverständlich! Bitte teilen Sie mir mit, um welche Art von Dokumenten es sich handelt, und ich werde mein Bestes tun, um Ihnen zu helfen.
+    </template>
+</category>
+
+<category>
+    <pattern>BITTE HELFEN SIE MIR</pattern>
+    <template>
+        Natürlich! Bitte beschreiben Sie Ihr Anliegen genauer, damit ich Ihnen effektiv helfen kann.
+    </template>
+</category>
+
+<category>
+    <pattern>KÖNNEN SIE MIR HELFEN?</pattern>
+    <template>
+        Natürlich! Bitte beschreiben Sie Ihr Anliegen genauer, damit ich Sie effektiv unterstützen kann.
+    </template>
+</category>
+
+</aiml>
