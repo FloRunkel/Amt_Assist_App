@@ -1,0 +1,187 @@
+/* Allgemeine Stile */
+body {
+  font-family: Garamond, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Navigation styling */
+.nav {
+  font-family: Garamond, serif;
+  font-size: 16px; /* Größere Schriftgröße */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #000000b6; /* Dunklerer Hintergrund */
+  border-bottom: 2px solid #fff; /* Hinzufügen einer unteren Border */
+  position: fixed; /* Fixierte Positionierung */
+  width: 100%; /* Breite auf 100% setzen */
+  top: 0; /* Oben ausrichten */
+  left: 0;
+  z-index: 1000; /* Z-Index setzen, um über anderen Inhalten zu liegen */
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 15px 20px; /* Größere Polsterung für mehr Interaktivität */
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s; /* Hinzufügen von Übergangseffekten */
+}
+
+.nav a:hover {/* Farbe ändern beim Hover */
+  background-color: #555; /* Hintergrundfarbe ändern beim Hover */
+}
+
+.main {
+  padding: 20px;
+}
+
+.about-us,
+.contact-info {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.title h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f9f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card p {
+  color: #666;
+}
+
+.contact-card {
+  max-width: 600px;
+}
+
+.contact-card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-card .card-content p {
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+.contact-list li a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-list li a:hover {
+  color: #0056b3;
+}
+/* Stil für die Kontaktinformationen */
+.contact-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Um die Elemente untereinander anzuordnen */
+  align-items: center; /* Zentrierung der Elemente horizontal */
+  padding: 50px 0;
+}
+
+.contact-info h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-info .card {
+  width: 100%;
+  max-width: 600px; /* Optional: Begrenzen Sie die Breite der Karten */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 20px; /* Abstand zwischen den Karten hinzufügen */
+}
+
+.contact-info .card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-info .card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.contact-info .contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul{
+  list-style: none;
+}
+
+.contact-info .contact-list li {
+  margin-bottom: 10px;
+}
+
+.contact-info .contact-list li a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info .contact-list li a:hover {
+  color: #0056b3;
+}
+
+footer {
+  font-family: Garamond, serif;
+  font-size: 14px; 
+  color:  #333; 
+  text-align: center; 
+  width: 100%; 
+  bottom: 0; 
+}
