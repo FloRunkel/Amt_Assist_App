@@ -1,0 +1,3 @@
+Evaluation Results:
+Test Loss: 16.409534454345703
+Test Accuracy: 0.020562848076224327
